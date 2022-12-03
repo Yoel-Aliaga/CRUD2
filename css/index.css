@@ -1,0 +1,188 @@
+*{
+	border:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:Century Gothic;
+	/* color:rgb(84,84,84); */
+	
+}
+body{
+	/* background-color:beige; */
+	padding-left:10px;
+	padding-right:10px;
+}
+.container{
+	width: 500px;
+	/* border: 1px solid lightgray; */
+	margin:auto;
+}
+
+
+.title-container{		
+	text-align:center;	
+	/* border:1px solid green; */
+	
+}
+
+
+.input{
+	display:block;
+	width:100%;
+	height:30px;	
+	border:1px solid lightblue;
+	border-radius:5px;
+	margin-bottom:15px;
+	padding-left:10px;
+	/* cursor:pointer; */
+}
+.button{
+	width:100%;
+	height:30px;
+	border-radius:5px;
+	margin-bottom:10px;
+	cursor:pointer;
+	background-color:rgb(13, 110, 253);
+	color:white;
+	font-weight:bold;
+	/* font-family:Century Gothic; */
+}
+
+
+.lista-tarea{
+	/* border:1px solid red; */
+	margin-top:15px;
+	height:100%;
+	/* background-color:beige; */
+	display:flex;
+	flex-direction:column-reverse;
+	
+}
+
+.obj-tareas{
+	display:flex;
+	align-items:center;
+	box-shadow:0 0 10px 2px rgba(0,0,0,0.1);
+	font-family:century gothic;
+	font-size:0.8em;
+	margin-bottom:15px;
+	border-radius: 5px;
+}
+
+.tarea-1{
+	/* border:1px solid green; */
+	padding: 10px ;
+	/* padding-left:10px; */
+	/* padding:5px; */
+	/* width:80%; */
+	width:400px;
+	/* height:30px; */
+	word-wrap:break-word;
+	
+}
+.nuevoInput{
+	/* padding: 10px ;	 */	
+	width:400px;	
+	max-width:400px;	
+	height:100%;
+	outline:none;
+	/* height:content; */
+	
+/* NO FUNCIONA EL WRAP */
+/* overflow-wrap:break-word; */
+	/* word-wrap:break-word; */
+	/* word-break: break-all; */
+	
+	background-color:#FFF3CD; /*Amarillo*/
+	/* height:40px; */
+}
+
+.controles{
+	display:flex;	
+	justify-content: center;
+	gap: 5px;	
+	width:100px;	
+	
+}
+/* INICIO - CONTROLES DE EDICION */
+.controlesEdit{
+	display:flex;	
+	justify-content: center;
+	/* gap: 5px;	 */
+	width:100px;		
+	display:none;
+	justify-content:flex-end;
+	/* border:1px solid red; */
+}
+
+#btnAcceptEdit, #btnCancelEdit{
+	/* border:1px solid green; */
+	width:25px;
+	height:30px;
+	cursor:pointer;	
+	border-radius:4px;
+	background-color:transparent;	
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-right:12px;
+}
+#btnAcceptEdit:hover{
+	background-color:rgba(0,0,0,0.1);
+}
+
+#btnCancelEdit:hover{
+	background-color:rgba(0,0,0,0.1);
+}
+/* FIN - CONTROLES DE EDICION */
+
+
+
+#btnDelete, #btnEdit, #btnDone {
+	width:25px;
+	height:30px;
+	cursor:pointer;
+	/* border: 1px solid ; */
+	border-radius:4px;
+	background-color:transparent;
+	/* border:1px solid green; */
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+#btnDone:hover{
+	background-color:rgba(0,0,0,0.1);
+	/* border-radius:5px; */
+}
+
+#btnDelete{
+	/* background-color:rgba(0,0,0,0.1); */
+	color:red;
+	font-weight:bold;
+	font-size:1.3em;
+	
+}
+#btnDelete:hover{
+	background-color:rgba(0,0,0,0.1);
+}
+
+#btnEdit:hover{
+	background-color:rgba(0,0,0,0.1);
+}
+
+/* .status-1{ */
+	/* color:red; */
+	/* font-size:80px; */
+/* } */
+
+/* .status-4{ */
+	/* background-color:red; */
+	/* color:purple; */
+	/* font-size:80px; */
+/* } */
+
+
+
+
+
+
